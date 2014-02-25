@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87056B1B18BB6AFE004C7D75 /* BCNCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87056B1A18BB6AFE004C7D75 /* BCNCoreDataManager.m */; };
+		87056B1E18BB6B11004C7D75 /* BCNPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 87056B1D18BB6B11004C7D75 /* BCNPicture.m */; };
+		87056B2118BB6FEA004C7D75 /* BCNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87056B2018BB6FEA004C7D75 /* BCNTableViewController.m */; };
+		8796B6DF18BD062600ABDE39 /* BCNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8796B6DE18BD062600ABDE39 /* BCNDetailViewController.m */; };
+		8796B6E318BD108F00ABDE39 /* BCNTableDetailAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8796B6E218BD108F00ABDE39 /* BCNTableDetailAnimationController.m */; };
+		8796B6E618BD1F0A00ABDE39 /* UIViewController+hp_layoutGuideFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 8796B6E518BD1F0A00ABDE39 /* UIViewController+hp_layoutGuideFix.m */; };
+		8796B6E918BD261000ABDE39 /* BCNDetailTableAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8796B6E818BD261000ABDE39 /* BCNDetailTableAnimationController.m */; };
+		87D28CCC18BB6A5E00B638FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D28CCB18BB6A5E00B638FE /* Foundation.framework */; };
+		87D28CCE18BB6A5E00B638FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D28CCD18BB6A5E00B638FE /* CoreGraphics.framework */; };
+		87D28CD018BB6A5E00B638FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D28CCF18BB6A5E00B638FE /* UIKit.framework */; };
+		87D28CD218BB6A5E00B638FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D28CD118BB6A5E00B638FE /* CoreData.framework */; };
+		87D28CD818BB6A5E00B638FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87D28CD618BB6A5E00B638FE /* InfoPlist.strings */; };
+		87D28CDA18BB6A5E00B638FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D28CD918BB6A5E00B638FE /* main.m */; };
+		87D28CDE18BB6A5E00B638FE /* BCNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D28CDD18BB6A5E00B638FE /* BCNAppDelegate.m */; };
+		87D28CE118BB6A5E00B638FE /* Transictures.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87D28CDF18BB6A5E00B638FE /* Transictures.xcdatamodeld */; };
+		87D28CE318BB6A5E00B638FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D28CE218BB6A5E00B638FE /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87056B1918BB6AFE004C7D75 /* BCNCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNCoreDataManager.h; sourceTree = "<group>"; };
+		87056B1A18BB6AFE004C7D75 /* BCNCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNCoreDataManager.m; sourceTree = "<group>"; };
+		87056B1C18BB6B11004C7D75 /* BCNPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNPicture.h; sourceTree = "<group>"; };
+		87056B1D18BB6B11004C7D75 /* BCNPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNPicture.m; sourceTree = "<group>"; };
+		87056B1F18BB6FEA004C7D75 /* BCNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNTableViewController.h; sourceTree = "<group>"; };
+		87056B2018BB6FEA004C7D75 /* BCNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNTableViewController.m; sourceTree = "<group>"; };
+		8796B6DD18BD062600ABDE39 /* BCNDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNDetailViewController.h; sourceTree = "<group>"; };
+		8796B6DE18BD062600ABDE39 /* BCNDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNDetailViewController.m; sourceTree = "<group>"; };
+		8796B6E118BD108F00ABDE39 /* BCNTableDetailAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNTableDetailAnimationController.h; sourceTree = "<group>"; };
+		8796B6E218BD108F00ABDE39 /* BCNTableDetailAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNTableDetailAnimationController.m; sourceTree = "<group>"; };
+		8796B6E418BD1F0A00ABDE39 /* UIViewController+hp_layoutGuideFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+hp_layoutGuideFix.h"; sourceTree = "<group>"; };
+		8796B6E518BD1F0A00ABDE39 /* UIViewController+hp_layoutGuideFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+hp_layoutGuideFix.m"; sourceTree = "<group>"; };
+		8796B6E718BD261000ABDE39 /* BCNDetailTableAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNDetailTableAnimationController.h; sourceTree = "<group>"; };
+		8796B6E818BD261000ABDE39 /* BCNDetailTableAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNDetailTableAnimationController.m; sourceTree = "<group>"; };
+		87D28CC818BB6A5E00B638FE /* Transictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D28CCB18BB6A5E00B638FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87D28CCD18BB6A5E00B638FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87D28CCF18BB6A5E00B638FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87D28CD118BB6A5E00B638FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		87D28CD518BB6A5E00B638FE /* Transictures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Transictures-Info.plist"; sourceTree = "<group>"; };
+		87D28CD718BB6A5E00B638FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87D28CD918BB6A5E00B638FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87D28CDB18BB6A5E00B638FE /* CloudPhotos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudPhotos-Prefix.pch"; sourceTree = "<group>"; };
+		87D28CDC18BB6A5E00B638FE /* BCNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCNAppDelegate.h; sourceTree = "<group>"; };
+		87D28CDD18BB6A5E00B638FE /* BCNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCNAppDelegate.m; sourceTree = "<group>"; };
+		87D28CE018BB6A5E00B638FE /* Transictures.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Transictures.xcdatamodel; sourceTree = "<group>"; };
+		87D28CE218BB6A5E00B638FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87D28CE918BB6A5E00B638FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87D28CC518BB6A5E00B638FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D28CCE18BB6A5E00B638FE /* CoreGraphics.framework in Frameworks */,
+				87D28CD218BB6A5E00B638FE /* CoreData.framework in Frameworks */,
+				87D28CD018BB6A5E00B638FE /* UIKit.framework in Frameworks */,
+				87D28CCC18BB6A5E00B638FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8796B6E018BD103000ABDE39 /* Animation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8796B6E118BD108F00ABDE39 /* BCNTableDetailAnimationController.h */,
+				8796B6E218BD108F00ABDE39 /* BCNTableDetailAnimationController.m */,
+				8796B6E718BD261000ABDE39 /* BCNDetailTableAnimationController.h */,
+				8796B6E818BD261000ABDE39 /* BCNDetailTableAnimationController.m */,
+			);
+			name = "Animation Controllers";
+			sourceTree = "<group>";
+		};
+		8796B6EA18BD30C100ABDE39 /* Navigation Controller Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				87D28CDC18BB6A5E00B638FE /* BCNAppDelegate.h */,
+				87D28CDD18BB6A5E00B638FE /* BCNAppDelegate.m */,
+			);
+			name = "Navigation Controller Delegate";
+			sourceTree = "<group>";
+		};
+		8796B6EB18BD30D700ABDE39 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8796B6DD18BD062600ABDE39 /* BCNDetailViewController.h */,
+				8796B6DE18BD062600ABDE39 /* BCNDetailViewController.m */,
+				87056B1F18BB6FEA004C7D75 /* BCNTableViewController.h */,
+				87056B2018BB6FEA004C7D75 /* BCNTableViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8796B6EC18BD30E900ABDE39 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				87056B1918BB6AFE004C7D75 /* BCNCoreDataManager.h */,
+				87056B1A18BB6AFE004C7D75 /* BCNCoreDataManager.m */,
+				87056B1C18BB6B11004C7D75 /* BCNPicture.h */,
+				87056B1D18BB6B11004C7D75 /* BCNPicture.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		8796B6ED18BD314700ABDE39 /* Layout Guide Fix */ = {
+			isa = PBXGroup;
+			children = (
+				8796B6E418BD1F0A00ABDE39 /* UIViewController+hp_layoutGuideFix.h */,
+				8796B6E518BD1F0A00ABDE39 /* UIViewController+hp_layoutGuideFix.m */,
+			);
+			name = "Layout Guide Fix";
+			sourceTree = "<group>";
+		};
+		87D28CBF18BB6A5E00B638FE = {
+			isa = PBXGroup;
+			children = (
+				87D28CD318BB6A5E00B638FE /* Transictures */,
+				87D28CCA18BB6A5E00B638FE /* Frameworks */,
+				87D28CC918BB6A5E00B638FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87D28CC918BB6A5E00B638FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87D28CC818BB6A5E00B638FE /* Transictures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87D28CCA18BB6A5E00B638FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87D28CCB18BB6A5E00B638FE /* Foundation.framework */,
+				87D28CCD18BB6A5E00B638FE /* CoreGraphics.framework */,
+				87D28CCF18BB6A5E00B638FE /* UIKit.framework */,
+				87D28CD118BB6A5E00B638FE /* CoreData.framework */,
+				87D28CE918BB6A5E00B638FE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87D28CD318BB6A5E00B638FE /* Transictures */ = {
+			isa = PBXGroup;
+			children = (
+				8796B6E018BD103000ABDE39 /* Animation Controllers */,
+				8796B6EC18BD30E900ABDE39 /* Core Data */,
+				87D28CE218BB6A5E00B638FE /* Images.xcassets */,
+				8796B6ED18BD314700ABDE39 /* Layout Guide Fix */,
+				8796B6EA18BD30C100ABDE39 /* Navigation Controller Delegate */,
+				87D28CD418BB6A5E00B638FE /* Supporting Files */,
+				87D28CDF18BB6A5E00B638FE /* Transictures.xcdatamodeld */,
+				8796B6EB18BD30D700ABDE39 /* View Controllers */,
+			);
+			path = Transictures;
+			sourceTree = "<group>";
+		};
+		87D28CD418BB6A5E00B638FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D28CD518BB6A5E00B638FE /* Transictures-Info.plist */,
+				87D28CD618BB6A5E00B638FE /* InfoPlist.strings */,
+				87D28CD918BB6A5E00B638FE /* main.m */,
+				87D28CDB18BB6A5E00B638FE /* CloudPhotos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87D28CC718BB6A5E00B638FE /* Transictures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D28CFA18BB6A5E00B638FE /* Build configuration list for PBXNativeTarget "Transictures" */;
+			buildPhases = (
+				87D28CC418BB6A5E00B638FE /* Sources */,
+				87D28CC518BB6A5E00B638FE /* Frameworks */,
+				87D28CC618BB6A5E00B638FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Transictures;
+			productName = Moments;
+			productReference = 87D28CC818BB6A5E00B638FE /* Transictures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87D28CC018BB6A5E00B638FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BCN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hermes Pique";
+				TargetAttributes = {
+					87D28CC718BB6A5E00B638FE = {
+						DevelopmentTeam = 7WDCU7A2S4;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 87D28CC318BB6A5E00B638FE /* Build configuration list for PBXProject "Transictures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87D28CBF18BB6A5E00B638FE;
+			productRefGroup = 87D28CC918BB6A5E00B638FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87D28CC718BB6A5E00B638FE /* Transictures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87D28CC618BB6A5E00B638FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D28CD818BB6A5E00B638FE /* InfoPlist.strings in Resources */,
+				87D28CE318BB6A5E00B638FE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87D28CC418BB6A5E00B638FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8796B6E318BD108F00ABDE39 /* BCNTableDetailAnimationController.m in Sources */,
+				87056B1B18BB6AFE004C7D75 /* BCNCoreDataManager.m in Sources */,
+				8796B6E618BD1F0A00ABDE39 /* UIViewController+hp_layoutGuideFix.m in Sources */,
+				87D28CE118BB6A5E00B638FE /* Transictures.xcdatamodeld in Sources */,
+				8796B6DF18BD062600ABDE39 /* BCNDetailViewController.m in Sources */,
+				87056B1E18BB6B11004C7D75 /* BCNPicture.m in Sources */,
+				87056B2118BB6FEA004C7D75 /* BCNTableViewController.m in Sources */,
+				87D28CDE18BB6A5E00B638FE /* BCNAppDelegate.m in Sources */,
+				8796B6E918BD261000ABDE39 /* BCNDetailTableAnimationController.m in Sources */,
+				87D28CDA18BB6A5E00B638FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87D28CD618BB6A5E00B638FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87D28CD718BB6A5E00B638FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87D28CF818BB6A5E00B638FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87D28CF918BB6A5E00B638FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87D28CFB18BB6A5E00B638FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Transictures/Transictures-Prefix.pch";
+				INFOPLIST_FILE = "Transictures/Transictures-Info.plist";
+				PRODUCT_NAME = Transictures;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87D28CFC18BB6A5E00B638FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Transictures/Transictures-Prefix.pch";
+				INFOPLIST_FILE = "Transictures/Transictures-Info.plist";
+				PRODUCT_NAME = Transictures;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87D28CC318BB6A5E00B638FE /* Build configuration list for PBXProject "Transictures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D28CF818BB6A5E00B638FE /* Debug */,
+				87D28CF918BB6A5E00B638FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D28CFA18BB6A5E00B638FE /* Build configuration list for PBXNativeTarget "Transictures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D28CFB18BB6A5E00B638FE /* Debug */,
+				87D28CFC18BB6A5E00B638FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87D28CDF18BB6A5E00B638FE /* Transictures.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87D28CE018BB6A5E00B638FE /* Transictures.xcdatamodel */,
+			);
+			currentVersion = 87D28CE018BB6A5E00B638FE /* Transictures.xcdatamodel */;
+			path = Transictures.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 87D28CC018BB6A5E00B638FE /* Project object */;
+}
